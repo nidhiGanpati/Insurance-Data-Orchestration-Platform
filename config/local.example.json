@@ -1,0 +1,14 @@
+{
+  "PORT": 3000,
+  "ELASTIC_SEARCH_CONNECTION_STRING": "http://localhost:9200",
+  "ELASTIC_SEARCH_PLAN_INDEX": "plans",
+  "REDIS_URL": "redis://localhost:6379",
+  "RABBITMQ_URL": "amqp://localhost:5672",
+  "JWT_SECRET": "CHANGE_ME",
+  "JWT_CONFIG": {
+    "expiresIn": "1h"
+  },
+  "RABBITMQ_EXCHANGE_NAME": "plan_events",
+  "RABBITMQ_EXCHANGE_TYPE": "direct",
+  "RABBITMQ_ROUTING_KEY": "plan.created"
+}

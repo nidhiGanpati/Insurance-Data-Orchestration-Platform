@@ -1,0 +1,17 @@
+{
+  "PORT": 3000,
+  "ELASTIC_SEARCH_CONNECTION_STRING": "http://localhost:9200",
+  "ELASTIC_SEARCH_PLAN_INDEX": "plans",
+  "REDIS_URL": "redis://localhost:6379",
+  "RABBITMQ_URL": "amqp://localhost:5672",
+  "JWT_SECRET": "92d41e405403610a8d05cde16f40381de2d706f709ee965e70f25add214d610b",
+  "JWT_CONFIG": {
+    "expiresIn": "1h"
+  },
+  "RABBITMQ_EXCHANGE_NAME": "plan_events",
+  "RABBITMQ_EXCHANGE_TYPE": "direct",
+  "RABBITMQ_ROUTING_KEY": "plan.created",
+  "DEMO_USERNAME": "stock@gmail.com",
+  "DEMO_PASSWORD": "Stock1234",
+  "SESSION_SECRET": "demo-session-secret-change-me"
+}
