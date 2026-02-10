@@ -60,3 +60,13 @@ Example:
 ```powershell
 Invoke-RestMethod http://127.0.0.1:3000/api/health
 ```
+# Insurance Data Orchestration Platform
+
+## Overview
+## Tech Stack
+## Architecture
+## Features
+## Screenshots
+## Setup Instructions
+## API Endpoints
+## Future Improvements
